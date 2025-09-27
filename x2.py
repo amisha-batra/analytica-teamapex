@@ -22,7 +22,7 @@ TRAIN_END_DATE = '2024-09-01'
 SARIMA_ORDER = (0, 0, 0) # p, d, q (Non-seasonal part)
 SARIMA_SEASONAL_ORDER = (1, 0, 1, 28) # P, D, Q, s (Seasonal part with period s=28)
 # ARIMA_ORDER is no longer needed as we only use SARIMAX
-FORECAST_HORIZON_DAYS = 90 # Forecasting the next quarter (90 days)
+FORECAST_HORIZON_DAYS = 101 # Forecasting the next quarter (101 days)
 
 # --- Data Loading and Preprocessing ---
 
